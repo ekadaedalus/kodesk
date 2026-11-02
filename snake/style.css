@@ -1,0 +1,1335 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Chango');
+
+.atthestart {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -360px;
+	width: 720px;
+	height: 400px;
+  margin-top: 00px;
+  
+	background: rgba(0, 0, 0, .975);
+	color: red;
+	font-family: 'Chango';
+	font-size: 20px;
+	text-align: center;
+	z-index: 9999999999999;
+	text-shadow: 0 0 3px #f00;
+	animation: introin 1s linear forwards;
+}
+
+@keyframes introin {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+html {background: #000;
+	  overflow: hidden;}
+.mycontainer {transform: scale(.67);
+display: block;
+  position: absolute;
+  top: 30%;
+  height: 960px;
+  width: 720px;
+  overflow-y: hidden;
+  }
+
+
+.gamename {
+	line-height: 100%;
+	margin-bottom: 5px;
+	width: 720px;
+	text-align: center;
+	font-family: 'Chango';
+	font-size: 55px;
+	color: red;
+	text-shadow: 0 0 10px #f00;
+
+}
+
+.playeronecontainer {
+	position: relative;
+	left: 5px;
+	float: left;
+	width: 343px;
+	height: 50px;
+	background: linear-gradient(to bottom, #000, #600);
+	border: 2px solid #e31;
+	border-radius: 5px;
+	opacity: 1;
+
+}
+
+.playertwocontainer {
+	position: relative;
+	left: 20px;
+	float: left;
+	width: 343px;
+	height: 50px;
+	background: linear-gradient(to bottom, #000, #600);
+	border: 2px solid #e31;
+	border-radius: 5px;
+	opacity: .1;
+}
+
+@keyframes pcglow {
+0% {text-shadow: 0 0 0 transparent;}
+100% {text-shadow: 0 0 25px #fff;}
+}
+
+.lightupcontainer {
+	animation: litup .1s linear forwards;
+}
+
+.dimcontainer {
+	animation: dimit .1s linear forwards;
+}
+
+@keyframes litup {
+	0% {opacity: 1;}
+	100% {opacity: .1;}
+}
+
+@keyframes dimit {
+	0% {opacity: .1;}
+	100% {opacity: 1;}
+}
+
+
+.container {
+	position: relative;
+	top: 61px;
+	width: 720px;
+	height: 720px;
+	background: #000;
+}
+
+.a100,.a99,.a98,.a97,.a96,.a95,.a94,.a93,.a92,.a91,.a90,.a89,.a88,.a87,.a86,.a85,.a84,.a83,.a82,.a81,.a80,.a79,.a78,.a77,.a76,.a75,.a74,.a73,.a72,.a71,.a70,.a69,.a68,.a67,.a66,.a65,.a64,.a63,.a62,.a61,.a60,.a59,.a58,.a57,.a56,.a55,.a54,.a53,.a52,.a51,.a50,.a49,.a48,.a47,.a46,.a45,.a44,.a43,.a42,.a41,.a40,.a39,.a38,.a37,.a36,.a35,.a34,.a33,.a32,.a31,.a30,.a29,.a28,.a27,.a26,.a25,.a24,.a23,.a22,.a21,.a20, .a19,.a18,.a17,.a16,.a15,.a14,.a13,.a12,.a11,.a10,.a9,.a8,.a7,.a6,.a5,.a4,.a3,.a2,.a1, .a0	{
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 16px;
+	position: relative;
+	transition: background .1s linear;
+	border-radius: 5px;
+	text-align: left;
+	padding-top: 2px;
+	padding-left: 3px;
+	display: inline-block;
+	float: left;
+	width: 67px;
+	height: 68px;
+	margin: 1px;
+	bottom: 54px;
+	background: #430;
+	color: #aa6;
+	text-shadow: 0 0 1px #430;
+	box-shadow: 0 0 2px 0px #640;
+}
+
+.pone {
+	position: absolute;
+	top: -5px;
+	left: 126px;
+	font-family: 'Chango';
+	font-size: 46px;
+	color: white;
+	text-align: center;
+}
+.playeroneposition {
+	line-height: 130%;
+	width: 140px;
+	position: relative;
+	top: 5px;
+	left: 8px;
+	font-family: 'Chango';
+	font-size: 16px;
+	color: white;
+}
+
+.gameswontextone {
+	position: absolute;
+	line-height: 110%;
+	top: 6px;
+	left: 207px;
+	font-family: 'Chango';
+	overflow-wrap: break-word;
+	font-size: 18px;
+	color: white;
+	width: 80px;
+	height: 68px;
+	text-align: right;
+
+}
+
+
+.gameswonone {
+	position: absolute;
+	left: 296px;
+	top: -5px;
+	font-family: 'Chango';
+	font-size: 46px;
+	color: white;
+
+}
+
+
+.ptwo {
+	position: absolute;
+	top: -5px;
+	left: 127px;
+	font-family: 'Chango';
+	font-size: 46px;
+	color: white;
+	text-align: center;
+}
+.playertwoposition {
+	line-height: 130%;
+	width: 140px;
+	position: relative;
+	top: 5px;
+	left: 8px;
+	font-family: 'Chango';
+	font-size: 16px;
+	color: white;
+}
+
+
+
+.gameswontwo {
+	position: absolute;
+	left: 296px;
+	top: -5px;
+	font-family: 'Chango';
+	font-size: 46px;
+	color: white;
+
+}
+
+.gameswontexttwo {
+	line-height: 110%;
+	position: absolute;
+	top: 6px;
+	left: 208px;
+	font-family: 'Chango';
+	overflow-wrap: break-word;
+	font-size: 18px;
+	color: white;
+	width: 80px;
+	height: 68px;
+	text-align: right;
+
+}
+
+.playeronecontrols {
+	width: 360px;
+	height: 115px;
+	position: absolute;
+	top: 844px;
+	left: 0px;
+	background: #000;
+	border-radius: 5px;
+}
+
+.playertwocontrols {
+	width: 360px;
+	height: 115px;
+	position: absolute;
+	top: 844px;
+	right: 0px;
+	background: #000;
+	border-radius: 5px;
+}
+
+.rollthedice {
+		box-shadow: 0 0 2px 0px #640;
+		position: absolute;
+		left: 4px;
+		top: 5px;
+		width: 115px;
+		height: 106px;
+		text-align: center;
+		background: #430;
+		font-family: 'Chango';
+		font-size: 48px;
+		border-radius: 10px;
+		outline: none;
+		z-index: 999;
+		text-shadow: 0 0 3px #220;
+		border: 2px solid rgba(80, 80, 80, .4);
+}
+
+.rollthedice:hover {cursor: pointer;}
+
+.rollthedicesid {
+		box-shadow: 0 0 2px 0px #640;
+		position: absolute;
+		left: 4px;
+		top: 5px;
+		width: 115px;
+		height: 106px;
+		text-align: center;
+		background: #430;
+		font-family: 'Chango';
+		font-size: 48px;
+		border-radius: 10px;
+		outline: none;
+		z-index: 999;
+		text-shadow: 0 0 3px #220;
+		border: 1px solid #430;
+  background-position: -50px 0px;
+  background-size: cover;
+	/*background-image: url("https://i.ibb.co/bKsWrFv/light.gif");
+*/
+}
+
+
+.spin {	
+		box-shadow: 0 0 2px 0px #210;
+		position: absolute;
+		right: 4px;
+		top: 5px;
+		width: 109px;
+		height: 106px;
+		text-align: center;
+		background: #430;
+		font-family: 'Chango';
+		font-size: 28px;
+		border-radius: 10px;
+		outline: none;
+		z-index: 999;
+		text-shadow: 0 0 3px #640;
+		border: 3px ridge rgba(100, 100, 100, .4);
+}
+
+.spintime {animation: pressgo .25s linear infinite alternate;}
+
+.spin:hover {cursor: pointer;}
+
+.spinsid {	
+		box-shadow: 0 0 2px 0px #210;
+		position: absolute;
+		right: 4px;
+		top: 5px;
+		width: 109px;
+		height: 106px;
+		text-align: center;
+		background: #430;
+		font-family: 'Chango';
+		font-size: 28px;
+		border-radius: 10px;
+		outline: none;
+		z-index: 999;
+		text-shadow: 0 0 3px #220;
+		border: 1px solid #320;
+}
+
+
+.pressgo {
+		opacity: 1;
+		background-image: url("https://i.ibb.co/bKsWrFv/light.gif");
+		background-size: cover;
+  		width: 115px;
+		height: 106px;
+		background-position: -50px 0px;
+		animation: flickr .5s linear infinite;
+
+}
+
+button {background: #444;
+	color: black;
+	font-size: 16px;}
+
+@keyframes flickr {
+	0% {color: white;}
+	50% {color: white;}
+	51% {color: #aaa;}
+	80% {color: black;}
+	100% {color: black;}
+}
+
+
+@keyframes pressgo {
+	0% {background: #430;}
+	100% {background: #da5;}
+}
+
+.diceone {		
+	position: absolute;
+	left: 129px;
+	top: 6px;
+	background: #aaa;
+	width: 109px;
+	height: 105px;
+	border-radius: 15px;
+}
+
+.dicetwo {		
+	position: absolute;
+	left: 129px;
+	top: 6px;
+	background: #aaa;
+	width: 109px;
+	height: 105px;
+	border-radius: 15px;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6 {
+	position: relative;
+	top: -4px;
+	transform: scale(12.05);
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	
+}
+.ds1, .ds2, .ds3, .ds4, .ds5, .ds6 {
+	position: relative;
+	top: -4px;
+	transform: scale(12.05);
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	
+}
+
+.dicethrow {
+	animation: dicethrow .5s linear infinite;
+}
+.diceout {
+	animation: diceout .25s linear forwards;
+}
+
+@keyframes dicethrow {
+	0% {background: black;}
+	100% {background: white;}
+}
+@keyframes diceout {
+	0% {background: white;}
+	50% {background: #aaa;}
+	100% {background: white;}
+}
+
+.d1 {box-shadow: 10px 10px 0px #000;}
+.d2 {box-shadow: 15px 5px 0px #000, 5px 15px 0px #000;}
+.d3 {box-shadow: 15px 5px 0px #000, 10px 10px 0px #000, 5px 15px 0px #000;}
+.d4 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+.d5 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 10px 10px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+.d6 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 5px 10px 0px #000, 15px 10px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+
+.d1, .d2, .d3, .d4, .d5, .d6 {
+	transform: scale(5);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.ds1 {box-shadow: 10px 10px 0px #000;}
+.ds2 {box-shadow: 15px 5px 0px #000, 5px 15px 0px #000;}
+.ds3 {box-shadow: 15px 5px 0px #000, 10px 10px 0px #000, 5px 15px 0px #000;}
+.ds4 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+.ds5 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 10px 10px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+.ds6 {box-shadow: 5px 5px 0px #000, 15px 5px 0px #000, 5px 10px 0px #000, 15px 10px 0px #000, 5px 15px 0px #000, 15px 15px 0px #000;}
+
+.ds1, .ds2, .ds3, .ds4, .ds5, .ds6 {
+	transform: scale(5);
+	position: absolute;
+	top: 9px;
+	left: 131px;
+}
+
+
+.running {animation: flash .75s linear forwards;}
+.static {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+.litup {background: #da5; color: white; text-shadow: 0 0 5px #fff; transition: background .15s linear;}
+.staticade {background: #fff; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent; animation: staticfade .33s linear forwards;}
+.staticfade {animation: redwin .75s linear forwards;}
+.redwin {animation: redwin 1s linear forwards;}
+
+@keyframes redwin {
+	0% {background: #f08;}
+	100% {background: transparent;}
+}
+
+@keyframes staticfade {
+	0% {background: #fff;}
+	100% {background: transparent;}
+}
+
+@keyframes flash {
+	0% {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+	10% {background: #da5; box-shadow: 0 0 6px 1px #da5; color: #fff; text-shadow: 0 0 5px #fff;}
+	20% {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+	30% {background: #da5; box-shadow: 0 0 6px 1px #da5; color: #fff; text-shadow: 0 0 5px #fff;}
+	40% {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+	50% {background: #da5; box-shadow: 0 0 6px 1px #da5; color: #fff; text-shadow: 0 0 5px #fff;}
+	60% {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+	70% {background: #da5; box-shadow: 0 0 6px 1px #da5; color: #fff; text-shadow: 0 0 5px #fff;}
+	80% {background: #430; box-shadow: 0 0 0 0 transparent; color: #aa6; text-shadow: 0 0 0 transparent;}
+
+	100% {background: #da5; box-shadow: 0 0 6px 1px #da5; color: #fff; text-shadow: 0 0 5px #fff;}
+}
+
+
+.reel0 {
+	transform: translateY(-680px);
+	overflow-wrap: break-word;
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 340px;
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Chango';
+	
+	z-index: 1;
+}
+.reel01 {
+	display: none;
+	position: absolute;
+	top: 400px;
+	left: 280px;
+	width: 160px;
+	height: 165px;
+	background: linear-gradient(to bottom, #000 0%, #fff 50%, #000 100%);
+	z-index: 3333;
+	overflow: hidden;
+	transform: scale(4.5);
+}
+
+.reelsup {
+	animation: reelsup .5s linear forwards;
+}
+
+.slideup {
+	animation: slideup 3s linear forwards;
+}
+
+@keyframes reelsup {
+	0% {transform: scale(4.5) translateY(130px);}
+	100% {transform: scale(4.5) translateY(0px);}
+}
+
+
+@keyframes slideup {
+	0% {transform: scale(4.5) translateY(0);}
+	66% {transform: scale(4.5) translateY(0);}
+	100% {transform: scale(4.5) translateY(-800px);}
+}
+
+@keyframes up {
+	0% {transform: translateY(-680px);}
+	100% {transform: translateY(0);}
+}
+@keyframes upa {
+	0% {transform: translateY(-680px);}
+	100% {transform: translateY(0);}
+}
+
+.reel1 {
+	transform: translateY(-680px);
+	z-index: 1;
+	display: inline-block;
+	overflow-wrap: break-word;
+	float: left;
+
+	width: 50px;
+	height: 340px;
+	
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Chango';
+}
+.reel2 {
+	z-index: 1;
+	transform: translateY(-680px);
+	
+	display: inline-block;
+	overflow-wrap: break-word;
+	float: left;
+	width: 50px;
+	height: 340px;
+
+	color: #000;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Chango';
+}
+
+.reel3 {
+	background: linear-gradient(to bottom, #000 0%, #fff 50%, #000 100%);
+	position: absolute;
+	left: 414px;
+	top: 510px;
+	z-index: 999910;
+	transform: translateY(-680px);
+	display: block;
+	overflow: hidden;
+	width: 127px;
+	height: 282px;
+	transform: scale(1);
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Chango';
+
+}
+
+.line {
+	position: absolute;
+	top: 79px;
+	left: 216px;
+	width: 284px;
+	height: 1px;
+	background: #f33;
+	opacity: .47;
+	z-index: 3334;
+	transform: scale(4.5);
+	}
+
+.levelup {
+
+	animation: up .8s linear infinite;
+
+}
+
+.reeltotal {
+	display: none;
+	width: 722px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	margin-top: -110px;
+	background: rgba(128, 64, 0, .7);
+	color: white;
+	font-size: 100px;
+	font-family: 'Chango';
+	content: "00";
+	animation: reeltotal 2s linear forwards;
+	z-index: 3334;
+}
+
+.reeltotalafter {
+	display: none;
+	width: 560px;
+	height: 322px;
+	position: absolute;
+	top: 188px;
+	left: 100px;
+	background: rgba(80, 80, 80, .85);
+	border-radius: 20px;
+	color: white;
+	font-size: 300px;
+	font-family: 'Chango';
+	content: '00';
+	animation: reeltotalafter 1.5s linear forwards 1s;
+	z-index: 3334;
+	opacity: 0;
+	padding: 0 0 0 0px;
+	text-align: center;
+	line-height: 100%;
+}
+
+@keyframes reeltotal {
+	0% {opacity: 1; background: transparent; color: transparent;}
+	33% {opacity: 1; background: linear-gradient(33% rgba(230, 140, 30, .5) , 66% rgba(230, 140, 30, .5)) ; color: white;}
+	66% {opacity: 1; background: linear-gradient(33% rgba(230, 140, 30, .5) , 66% rgba(230, 140, 30, .5)) ; color: white;}
+	100% {opacity: 0;}
+}
+
+@keyframes reeltotalafter {
+	0% {display: block; opacity: 0; width: 560px; transform: translateY(0);}
+	33% {display: block; opacity: 1; width: 560px; transform: translateY(-20px);}
+	34% {display: block; opacity: 1; width: 560px; transform: translateY(-20px);}
+	65% {display: block; opacity: 1; width: 560px; transform: translateY(0px);}
+	99.9% {display: block; opacity: 0; width: 560px; transform: translateY(-500px);}
+	100%{display: none; opacity: 0; width: 560px; transform: translateY(-500px);}
+}
+
+
+
+
+.l5	{mix-blend-mode: multiply;
+	position: absolute;
+	top: 392px;
+	left: 308px;
+	width: 34px;
+	height: 243px;
+	background-image: url("https://i.ibb.co/brQcfnw/ladder1.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.l8	{mix-blend-mode: multiply;
+	position: absolute;
+	top: 547px;
+	left: 585px;
+	width: 34px;
+	height: 145px;
+	transform: rotateZ(45deg) scale(1.4);
+	background-image: url("http://www.stezzer.com/images/ladder1.png");
+	z-index: 4;
+}
+
+.l20{mix-blend-mode: multiply;
+	position: absolute;
+	top: 312px;
+	left: 20px;
+	width: 34px;
+	height: 243px;
+	background-image: url("https://i.ibb.co/brQcfnw/ladder1.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.l49{mix-blend-mode: multiply;
+	position: absolute;
+	top: 256px;
+	left: 520px;
+	width: 34px;
+	height: 145px;
+	transform: rotateZ(-45deg) scale(1.4);
+	background-image: url("https://i.ibb.co/brQcfnw/ladder1.png");
+	z-index: 4;
+}
+.l63{mix-blend-mode: multiply;
+	position: absolute;
+	top: 116px;
+	left: 228px;
+	width: 34px;
+	height: 145px;
+	transform: rotateZ(45deg) scale(1.4);
+	background-image: url("https://i.ibb.co/brQcfnw/ladder1.png");
+	z-index: 4;
+}
+.l72{mix-blend-mode: multiply;
+	position: absolute;
+	top: 40px;
+	left: 532px;
+	width: 34px;
+	height: 145px;
+	transform: rotateZ(-45deg) scale(1.4);
+	background-image: url("https://i.ibb.co/brQcfnw/ladder1.png");
+	z-index: 4;
+}
+.s99{mix-blend-mode: multiply;
+	position: absolute;
+	top: 63px;
+	left: 83px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.s91{mix-blend-mode: multiply;
+	position: absolute;
+	top: 63px;
+	left: 661px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.s86{mix-blend-mode: multiply;
+	position: absolute;
+	top: 134px;
+	left: 371px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.s31{mix-blend-mode: multiply;
+	position: absolute;
+	top: 490px;
+	left: 661px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.s54{mix-blend-mode: multiply;
+	position: absolute;
+	top: 353px;
+	left: 446px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+.s38{mix-blend-mode: multiply;
+	position: absolute;
+	top: 490px;
+	left: 155px;
+	width: 49px;
+	height: 155px;
+	background-image: url("https://i.ibb.co/FhNNC4C/snake3.png");
+	z-index: 4;
+	transform: scale(1.4);
+}
+div.a5.litup::after, div.a5::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "05";
+	font-size: 16px;
+}
+div.a9.litup::after, div.a9::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "09";
+	font-size: 16px;
+}
+div.a11.litup::after, div.a11::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "11";
+	font-size: 16px;
+}
+div.a16.litup::after, div.a16::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "16";
+	font-size: 16px;
+}
+div.a18.litup::after, div.a18::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "18";
+	font-size: 16px;
+}
+div.a25.litup::after, div.a25::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "25";
+	font-size: 16px;
+}
+div.a34.litup::after, div.a34::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "34";
+	font-size: 16px;
+}
+div.a36.litup::after, div.a36::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "36";
+	font-size: 16px;
+}
+div.a45.litup::after, div.a45::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "45";
+	font-size: 16px;
+}
+div.a8.litup::after, div.a8::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "08";
+	font-size: 16px;
+}
+div.a12.litup::after, div.a12::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "12";
+	font-size: 16px;
+}
+div.a20.litup::after, div.a20::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "20";
+	font-size: 16px;
+}
+div.a21.litup::after, div.a21::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "21";
+	font-size: 16px;
+}
+div.a40.litup::after, div.a40::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "40";
+	font-size: 16px;
+}
+div.a41.litup::after, div.a41::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "41";
+	font-size: 16px;
+}
+div.a60.litup::after, div.a60::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "60";
+	font-size: 16px;
+}
+div.a64.litup::after, div.a64::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "64";
+	font-size: 16px;
+}
+div.a66.litup::after, div.a66::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "66";
+	font-size: 16px;
+}
+div.a71.litup::after, div.a71::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "71";
+	font-size: 16px;
+}
+div.a76.litup::after, div.a76::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "76";
+	font-size: 16px;
+}
+div.a79.litup::after, div.a79::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "79";
+	font-size: 16px;
+}
+div.a12.litup::after, div.a12::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "12";
+	font-size: 16px;
+}
+
+div.a49.litup::after, div.a49::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "49";
+	font-size: 16px;
+}
+div.a54.litup::after, div.a54::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "54";
+	font-size: 16px;
+}
+div.a53.litup::after, div.a53::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "53";
+	font-size: 16px;
+}
+div.a48.litup::after, div.a48::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "48";
+	font-size: 16px;
+}
+div.a63.litup::after, div.a63::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "63";
+	font-size: 16px;
+}
+div.a77.litup::after, div.a77::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "77";
+	font-size: 16px;
+}
+div.a72.litup::after, div.a72::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "72";
+	font-size: 16px;
+}
+div.a73.litup::after, div.a73::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "73";
+	font-size: 16px;
+}
+div.a88.litup::after, div.a88::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "88";
+	font-size: 16px;
+}
+div.a87.litup::after, div.a87::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "87";
+	font-size: 16px;
+}
+div.a62.litup::after, div.a62::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "62";
+	font-size: 16px;
+}
+div.a82.litup::after, div.a82::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "82";
+	font-size: 16px;
+}
+div.a90.litup::after, div.a90::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "90";
+	font-size: 16px;
+}
+div.a70.litup::after, div.a70::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "70";
+	font-size: 16px;
+}
+div.a75.litup::after, div.a75::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "75";
+	font-size: 16px;
+}
+div.a55.litup::after, div.a55::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "55";
+	font-size: 16px;
+}
+div.a30.litup::after, div.a30::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "30";
+	font-size: 16px;
+
+}
+
+div.a47.litup::after, div.a47::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "47";
+	font-size: 16px;
+}
+div.a27.litup::after, div.a27::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "27";
+	font-size: 16px;
+}
+div.a23.litup::after, div.a23::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "23";
+	font-size: 16px;
+	
+}
+div.a3.litup::after, div.a3::after {
+	z-index: 999;
+	position: absolute;
+	left: 3px;
+	content: "03";
+	font-size: 16px;
+}
+
+div.a17.litup::after, div.a17::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+div.a32.litup::after, div.a32::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+div.a43.litup::after, div.a43::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+div.a69.litup::after, div.a69::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+div.a80.litup::after, div.a80::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+div.a14.litup::after, div.a14::after {
+	position: absolute;
+	font-family: 'Chango';
+	top: 25px;
+	left: 7px;
+	content: "SPIN";
+	font-size: 16px;
+	z-index: 999;
+}
+
+.playingonpc {
+	font-weight: bold;
+	position: absolute;
+	left: -300px;
+	top: 50px;
+	font-size: 28px;
+}
+
+.testbuttonone	{
+	font-weight: bold;
+	position: absolute;
+	left: -250px;
+	top: 80px;
+}
+
+.testbuttontwo	{
+	font-weight: bold;
+	position: absolute;
+	left: -250px;
+	top: 110px;
+}
+
+.testbuttonthree	{
+	font-weight: bold;
+	position: absolute;
+	left: -250px;
+	top: 140px;
+}
+
+.ponewin {	
+	display: none;
+	width: 720px;
+	height: 590px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -360px;
+	margin-top: -430px;
+	background: url("https://i.ibb.co/bKsWrFv/light.gif");
+	z-index: 2000;
+	background-size: cover;
+	background-position: -390px;
+	color: white;
+	padding-top: 200px;
+	font-size: 130px;
+	text-align: center;
+	font-family: 'Chango';
+	animation: win .25s steps(1, end) infinite;
+}
+
+.ptwowin {	
+	display: none;
+	width: 720px;
+	height: 520px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -360px;
+	margin-top: -520px;
+	background-image: url("https://i.ibb.co/bKsWrFv/light.gif");
+	background-size: cover;
+	background-position: -360px 0;
+	z-index: 2000;
+	color: white;
+	padding-top: 200px;
+	font-size: 130px;
+	text-align: center;
+	font-family: 'Chango';
+	animation: win .25s steps(1, end) infinite;
+}
+
+@keyframes win {
+	0% {color: rgba(255, 255, 255, 1);}
+	50% {color: rgba(0, 0, 0, 0);}
+	100% {color: rgba(255, 255, 255, 1);}
+}
+
+.winningonehundred {
+
+	animation: woh 2s linear forwards;
+}
+
+@keyframes woh {
+	0% {background-color: #da5;}
+	5% {background-color: #430;}
+	10% {background-color: #da5;}
+	15% {background-color: #430;}
+	20% {background-color: #da5;}
+	25% {background-color: #430;}
+	30% {background-color: #da5;}
+	35% {background-color: #430;}
+	40% {background-color: #da5;}
+	45% {background-color: #430;}
+	50% {background-color: #da5;}
+	80% {background-color: #fff;}
+	100% {background-color: transparent;}
+}
+
+
+.sid {
+	display: none;
+	position: absolute;
+	top: 930px;
+	left: 401px;
+	width: 80px;
+	height: 265px;
+	background-image: url("https://i.ibb.co/q743V7Y/snake4.png");
+	z-index: 1000;
+}
+.sidspin {
+	display: none;
+	position: absolute;
+	top: 930px;
+	left: 631px;
+	width: 80px;
+	height: 265px;
+	background-image: url("https://i.ibb.co/q743V7Y/snake4.png");
+	z-index: 1000;
+}
+
+.sideyesspin {
+	display: none;
+	position: absolute;
+	top: 780px;
+	left: 631px;
+	width: 80px;
+	height: 39px;
+	background-image: url("https://i.ibb.co/QFB2JbQ/snake-eyes-82x39.png");
+	z-index: 1001;
+}
+
+.sidblinkspin {
+	display: none;
+	position: absolute;
+	top: 780px;
+	left: 631px;
+	width: 80px;
+	height: 39px;
+	background-image: url("https://i.ibb.co/jRgfHm2/snake-blink-82x39.png");
+	z-index: 1002;
+}
+
+.sidspinreels {
+	animation: sidrolldice 3.5s linear forwards;
+}
+.sideyes {
+	display: none;
+	position: absolute;
+	top: 780px;
+	left: 401px;
+	width: 80px;
+	height: 39px;
+	background-image: url("https://i.ibb.co/QFB2JbQ/snake-eyes-82x39.png");
+	z-index: 1001;
+}
+.sidblink {
+	display: none;
+	position: absolute;
+	top: 780px;
+	left: 401px;
+	width: 80px;
+	height: 39px;
+	background-image: url("https://i.ibb.co/jRgfHm2/snake-blink-82x39.png");
+	z-index: 1002;
+}
+
+.sidrolldice {
+	animation: sidrolldice 3.5s linear forwards;
+}
+
+@keyframes sidrolldice {
+	0%{transform: translateY(150px);}
+	20%{transform: translateY(-150px);}
+	30%{transform: translateY(-130px);}
+	40%{transform: translateY(-150px);}
+   95%{transform: translateY(-150px);}	
+   100%{transform: translateY(150px);}	
+}
+
+.mycontainer {
+	max-width: 720px;
+	height: 900px;
+	position: absolute;
+	top: 5%;
+  display: block;
+	left: 50%;
+	margin-left: -360px;
+	margin-top: 20px;
+	z-index: 0;
+  transform: scale(0.5);
+  overflow: hidden;
+
+}
+
+.overflowdesktop {
+  overflow: inherit;	}

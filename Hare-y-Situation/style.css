@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #22c55e;
+    --hole-color: #1a0a02;
+    --dirt-color: #78350f;
+    --gold: #fcd34d;
+}
+
+body { 
+    background: var(--bg-color); font-family: 'Segoe UI', sans-serif; 
+    display: flex; flex-direction: column; align-items: center; justify-content: center; 
+    height: 100vh; margin: 0; overflow: hidden; touch-action: manipulation;
+    transition: background 0.3s;
+}
+
+/* Fullscreen Bonus Overlay */
+#bonus-overlay {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    pointer-events: none; z-index: 99;
+}
+
+/* --- NEW CODE START --- */
+/* Container for Bunny and Bomb JSON animations */
+.local-lottie {
+    position: absolute;
+    width: 140px;  /* Slightly larger than the hole for better effect visibility */
+    height: 140px;
+    pointer-events: none; 
+    z-index: 100;
+    transform: translate(-50%, -50%); /* This keeps the animation centered on the hole */
+}
+/* --- NEW CODE END --- */
+
+.ui-container { 
+    display: flex; gap: 20px; margin-bottom: 20px; background: rgba(0,0,0,0.6); 
+    padding: 12px 30px; border-radius: 50px; color: white; border: 2px solid rgba(255,255,255,0.2);
+    z-index: 10;
+}
+
+.game-box {
+    display: grid; grid-template-columns: repeat(3, 110px); grid-template-rows: repeat(3, 110px);
+    gap: 15px; background: var(--dirt-color); padding: 20px; border-radius: 25px; 
+    border: 8px solid #451a03; position: relative; z-index: 5;
+}
+
+.hole {
+    background: var(--hole-color); border-radius: 50%; display: flex; align-items: center;
+    justify-content: center; font-size: 55px; position: relative; 
+    overflow: hidden; height: 110px; width: 110px;
+    box-shadow: inset 0 8px 15px rgba(0,0,0,0.7);
+}
+
+.mole {
+    position: absolute; bottom: -100%; width: 100%; text-align: center;
+    transition: bottom 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 5; cursor: pointer;
+}
+
+.up .mole { bottom: 10%; }
+
+/* Bomb Blast Animation */
+@keyframes hole-blast {
+    0% { transform: scale(1); background: #ef4444; }
+    50% { transform: scale(1.2); background: #f97316; }
+    100% { transform: scale(1); background: var(--hole-color); }
+}
+.blast-effect { animation: hole-blast 0.4s ease-out; overflow: visible !important; }
+
+/* Screen Flash */
+@keyframes screen-flash { 0% { background: #991b1b; } 100% { background: var(--bg-color); } }
+.flash-red { animation: screen-flash 0.4s forwards; }
+
+#gameOver {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9); display: none; flex-direction: column;
+    align-items: center; justify-content: center; color: white; z-index: 100;
+}
+
+button {
+    padding: 15px 40px; font-size: 22px; cursor: pointer; background: #3b82f6;
+    color: white; border: none; border-radius: 15px; margin-top: 20px;
+}

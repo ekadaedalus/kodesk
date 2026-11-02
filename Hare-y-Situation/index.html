@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hare-y Situation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+
+    <div id="bonus-overlay"></div>
+
+    <div id="gameOver">
+        <h1 id="overTitle">BOOM!</h1>
+        <p id="finalScoreText">Bunnies Saved: 0</p>
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+
+    <div class="ui-container">
+        <div class="stat">Score: <span id="score">0</span></div>
+        <div class="stat">Best: <span id="highScore">0</span></div>
+        <div class="stat">Health: <span id="lives">❤️❤️❤️</span></div>
+    </div>
+    
+    <div class="game-box">
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+        <div class="hole"><span class="mole"></span></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

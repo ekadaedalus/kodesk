@@ -1,0 +1,13 @@
+{
+  "name": "kodesk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KODESK - Gamified Online Coding Challenge Platform (frontend + backend)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npm install --prefix backend --omit=dev && npm install --prefix frontend --include=dev && npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  }
+}

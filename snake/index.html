@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- My First Ever Game - Snakes & Ladders - with my own twist :) Hope you enjoy -->
+
+<!-- visit: www.stezzer.com/b   for the game with audio :) -->
+<div class="atthestart">SNAKES & LADDERS</br></br>Press the 'GO' button to roll the dice and advance up the board.</br>
+Land on a 'SPIN' square for a bonus spin to advance further up the board.</br>
+When close to the top you must roll a perfect number to land you on 100. If your dice value takes you past you will bounce back.</br>
+Beat SID to the top to win.</br></br>
+Press anywhere to begin</br></div>
+
+
+
+
+
+<div class="mycontainer">
+
+<div class="sid"></div>
+<div class="sidspin"></div>
+<div class="sideyes"></div>
+<div class="sideyesspin"></div>
+<div class="sidblink"></div>
+<div class="sidblinkspin"></div>
+
+
+<!--<button class="playingonpc">PLAYING ON PC</button>
+<!--<button class="testbuttonone">ANIMATE</button>
+<button class="testbuttontwo">DICE</button>
+<button class="testbuttonthree">SPIN</button>
+-->
+
+<div class="gamename">Snakes & Ladders</div>
+<div class="playeronecontainer">
+<div class="playeroneposition">PLAYER 1 POSITION</div>
+<div class="gameswontextone">Games Won</div>
+<div class="gameswonone">0</div>
+<div class="pone"></div>
+</div>
+
+<div class="playertwocontainer">
+<div class="playertwoposition">PLAYER 2 POSITION</div>
+<div class="gameswontexttwo">Games Won</div>
+<div class="gameswontwo">0</div>
+<div class="ptwo"></div>
+</div>
+
+<div class="ponewin">You WIN</div>
+<div class="ptwowin">SID WINS</div>
+
+<div class="container">
+
+<div class="reeltotal"></div>
+<div class="reeltotalafter"></div>
+
+<div class="l5"></div>
+<div class="l8"></div>
+<div class="l20"></div>
+<div class="l49"></div>
+<div class="l63"></div>
+<div class="l72"></div>
+
+<div class="s99"></div>
+<div class="s91"></div>
+<div class="s86"></div>
+<div class="s31"></div>
+<div class="s54"></div>
+<div class="s38"></div>
+<div class="s381"></div>
+
+<div class="a100">100</div>
+<div class="a99">99</div>
+<div class="a98">98</div>
+<div class="a97">97</div>
+<div class="a96">96</div>
+<div class="a95">95</div>
+<div class="a94">94</div>
+<div class="a93">93</div>
+<div class="a92">92</div>
+<div class="a91">91</div>
+<div class="a81">81</div>
+<div class="a82">82</div>
+<div class="a83">83</div>
+<div class="a84">84</div>
+<div class="a85">85</div>
+<div class="a86">86</div>
+<div class="a87">87</div>
+<div class="a88">88</div>
+<div class="a89">89</div>
+<div class="a90">90</div>
+<div class="a80">80</div>
+<div class="a79">79</div>
+<div class="a78">78</div>
+<div class="a77">77</div>
+<div class="a76">76</div>
+<div class="a75">75</div>
+<div class="a74">74</div>
+<div class="a73">73</div>
+<div class="a72">72</div>
+<div class="a71">71</div>
+<div class="a61">61</div>
+<div class="a62">62</div>
+<div class="a63">63</div>
+<div class="a64">64</div>
+<div class="a65">65</div>
+<div class="a66">66</div>
+<div class="a67">67</div>
+<div class="a68">68</div>
+<div class="a69">69</div>
+<div class="a70">70</div>
+<div class="a60">60</div>
+<div class="a59">59</div>
+<div class="a58">58</div>
+<div class="a57">57</div>
+<div class="a56">56</div>
+<div class="a55">55</div>
+<div class="a54">54</div>
+<div class="a53">53</div>
+<div class="a52">52</div>
+<div class="a51">51</div>
+<div class="a41">41</div>
+<div class="a42">42</div>
+<div class="a43">43</div>
+<div class="a44">44</div>
+<div class="a45">45</div>
+<div class="a46">46</div>
+<div class="a47">47</div>
+<div class="a48">48</div>
+<div class="a49">49</div>
+<div class="a50">50</div>
+<div class="a40">40</div>
+<div class="a39">39</div>
+<div class="a38">38</div>
+<div class="a37">37</div>
+<div class="a36">36</div>
+<div class="a35">35</div>
+<div class="a34">34</div>
+<div class="a33">33</div>
+<div class="a32">32</div>
+<div class="a31">31</div>
+<div class="a21">21</div>
+<div class="a22">22</div>
+<div class="a23">23</div>
+<div class="a24">24</div>
+<div class="a25">25</div>
+<div class="a26">26</div>
+<div class="a27">27</div>
+<div class="a28">28</div>
+<div class="a29">29</div>
+<div class="a30">30</div>
+<div class="a20">20</div>
+<div class="a19">19</div>
+<div class="a18">18</div>
+<div class="a17">17</div>
+<div class="a16">16</div>
+<div class="a15">15</div>
+<div class="a14">14</div>
+<div class="a13">13</div>
+<div class="a12">12</div>
+<div class="a11">11</div>
+<div class="a1">01</div>
+<div class="a2">02</div>
+<div class="a3">03</div>
+<div class="a4">04</div>
+<div class="a5">05</div>
+<div class="a6">06</div>
+<div class="a7">07</div>
+<div class="a8">08</div>
+<div class="a9">09</div>
+<div class="a10">10</div>
+</div>
+
+<div class="playeronecontrols">
+<button class="rollthedice">GO</button>
+<div class="diceone">
+	<div class="d6"></div>
+</div>
+<button class="spin">SPIN</button>
+</div>
+
+<div class="playertwocontrols">
+<button class="rollthedicesid">GO</button>
+<div class="dicetwo"></div>
+	<div class="ds6"></div>
+<button class="spinsid">SPIN</button>
+</div>
+
+<div class="reel01">
+<div class="line"></div>
+<div class="reel0">345612345612345612345612345612</div>
+<div class="reel1">345612345612345612345612345612</div>
+<div class="reel2">345612345612345612345612345612</div>
+</div>
+
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
