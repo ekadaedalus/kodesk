@@ -12,7 +12,7 @@ const GAME_CATALOG = [
     title: '1024 Moves',
     description: 'Slide and plan every move to reach the target tile.',
     required_level: 1,
-    root_dir: '../../1024-moves',
+    root_dir: '../../games/1024-moves',
     entry_file: 'index.html'
   },
   {
@@ -21,7 +21,7 @@ const GAME_CATALOG = [
     title: 'Back Attacker',
     description: 'React quickly and strike from the right timing windows.',
     required_level: 2,
-    root_dir: '../../back-attacker',
+    root_dir: '../../games/back-attacker',
     entry_file: 'index.html'
   },
   {
@@ -30,7 +30,7 @@ const GAME_CATALOG = [
     title: 'Hare-y Situation',
     description: 'Fast bunny rescue chaos with explosive hazards.',
     required_level: 3,
-    root_dir: '../../Hare-y-Situation',
+    root_dir: '../../games/Hare-y-Situation',
     entry_file: 'index.html'
   },
   {
@@ -39,7 +39,7 @@ const GAME_CATALOG = [
     title: 'Play Back',
     description: 'Replay-focused challenge with fast decision timing.',
     required_level: 4,
-    root_dir: '../../play-back',
+    root_dir: '../../games/play-back',
     entry_file: 'index.html'
   },
   {
@@ -48,7 +48,7 @@ const GAME_CATALOG = [
     title: 'Push Back',
     description: 'Physics and timing challenge with layered obstacles.',
     required_level: 5,
-    root_dir: '../../push-back/dist',
+    root_dir: '../../games/push-back/dist',
     entry_file: 'index.html'
   },
   {
@@ -57,7 +57,7 @@ const GAME_CATALOG = [
     title: 'Snake',
     description: 'Classic snake gameplay with precision movement.',
     required_level: 6,
-    root_dir: '../../snake',
+    root_dir: '../../games/snake',
     entry_file: 'index.html'
   },
   {
@@ -66,7 +66,7 @@ const GAME_CATALOG = [
     title: 'Spacecraft',
     description: 'Pilot control challenge through a reactive scene.',
     required_level: 7,
-    root_dir: '../../spacecraft',
+    root_dir: '../../games/spacecraft',
     entry_file: 'index.html'
   },
   {
@@ -75,7 +75,7 @@ const GAME_CATALOG = [
     title: 'Swagshot',
     description: 'Quick-reflex score chaser with shot accuracy focus.',
     required_level: 8,
-    root_dir: '../../Swagshot',
+    root_dir: '../../games/Swagshot',
     entry_file: 'index.html'
   },
   {
@@ -84,7 +84,7 @@ const GAME_CATALOG = [
     title: 'Tilting Maze',
     description: 'Tilt, balance, and route through maze pathways.',
     required_level: 9,
-    root_dir: '../../Tilting Maze Game',
+    root_dir: '../../games/Tilting Maze Game',
     entry_file: 'index.html'
   }
 ];
